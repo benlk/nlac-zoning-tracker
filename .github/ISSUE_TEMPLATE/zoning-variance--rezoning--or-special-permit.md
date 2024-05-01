@@ -20,6 +20,7 @@ Attach:
 
 Process steps:
 
+- [ ] Forward address labels to mailer
 - [ ] Reply to notification email
 - [ ] Add involved parties to Mailchimp list
 - [ ] Add item to next agenda in Mailchimp
