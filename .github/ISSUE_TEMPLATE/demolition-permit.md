@@ -1,13 +1,13 @@
 ---
 name: Demolition Permit
 about: For demolition orders
-title: ''
+title: 'DEMO / address'
 labels: 'Received, Type: Demoliton'
 assignees: benlk
 
 ---
 
-- Address:
+- Permit portal link:
 - [Auditor link](https://property.franklincountyauditor.com/_web/maps/mapadv.aspx): 
 - Zoned as:
 - Description of demolition:
@@ -18,3 +18,11 @@ Attach:
 
 - [ ] application
 - [ ] notice form
+
+Process steps:
+
+- [ ] Reply to notification email
+- [ ] Add involved parties to Mailchimp list
+- [ ] Add item to next agenda in Mailchimp
+- [ ] Hearing
+- [ ] Reply to notification email with comments
