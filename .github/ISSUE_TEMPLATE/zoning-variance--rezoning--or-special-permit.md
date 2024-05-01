@@ -7,15 +7,15 @@ assignees: benlk
 
 ---
 
-- Address:
-- [Auditor link](https://property.franklincountyauditor.com/_web/maps/mapadv.aspx): 
+- Permits portal link:
+- Auditor link:  
 - Zoned as:
 - Variances requested:
 
 Attach:
 
-- [ ] Application
-- [ ] Address sheet
+- [ ] Application: 
+- [ ] Address sheet: 
 - [ ] Other documentation
 
 Process steps:
@@ -31,5 +31,5 @@ After the hearings are done:
 
 After NLAC has voted:
 
-- [ ] Fill out recommendation form, with comments
+- [ ] Fill out recommendation form, with comments: 
 - [ ] Send recommendation form to City
