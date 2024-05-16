@@ -11,6 +11,8 @@ assignees: benlk
 - Auditor link:  
 - Zoned as:
 - Variances requested:
+- Application filed:
+- Application received:
 
 Attach:
 
