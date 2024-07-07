@@ -11,7 +11,9 @@ assignees: benlk
 - [Auditor link](https://property.franklincountyauditor.com/_web/maps/mapadv.aspx): 
 - Zoned as:
 - Description of demolition:
+- Received: 
 - Due date:
+- Issued: 
 - Is this demolition an emergency? y/n
 
 Attach:
