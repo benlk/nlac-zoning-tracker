@@ -49,13 +49,19 @@ body:
     id: issued
     attributes:
       label: "Has this already been issued?"
+    validations:
+      required: false
   - type: checkbox
     id: emergency
     attributes:
       label: "Is this demolition an emergency?"
+    validations:
+      required: false
   - type: markdown
     attributes:
       label: "Description of demolition:"
+    validations:
+      required: true
 ---
 
 
