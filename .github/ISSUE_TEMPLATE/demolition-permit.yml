@@ -1,0 +1,98 @@
+name: Demolition Permit
+description: For demolition orders
+title: "DEMO / address"
+labels:
+  - Received
+  - "Type: Demolition"
+assignees:
+  - benlk
+
+body:
+  - type: input
+    id: portal_link
+    attributes:
+      label: Permit portal link
+    validations:
+      required: true
+
+  - type: input
+    id: parcel_number
+    attributes:
+      label: Parcel number
+    validations:
+      required: true
+
+  - type: input
+    id: parcel_link
+    attributes:
+      label: Auditor link
+      value: "https://audr-apps.franklincountyohio.gov/redir/Link/Parcel/"
+      description: "e.g. https://audr-apps.franklincountyohio.gov/redir/Link/Parcel/01008375900"
+    validations:
+      required: true
+
+  - type: input
+    id: zoned
+    attributes:
+      label: Zoned as
+      description: "https://gis.columbus.gov/zoning/"
+    validations:
+      required: true
+
+  - type: input
+    id: received
+    attributes:
+      label: Received date
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: true
+
+  - type: input
+    id: due
+    attributes:
+      label: Automatic issue date
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: issued
+    attributes:
+      label: Issuance status
+      options:
+        - label: This has already been issued
+
+  - type: checkboxes
+    id: emergency
+    attributes:
+      label: Emergency status
+      options:
+        - label: This demolition is an emergency
+
+  - type: checkboxes
+    id: attachments
+    attributes:
+      label: Attach
+      options:
+        - label: application
+        - label: notice form
+
+  - type: checkboxes
+    id: process_steps
+    attributes:
+      label: Process steps
+      options:
+        - label: Reply to notification email
+        - label: Request copy of application if not downloadable from the portal
+        - label: Add involved parties to Mailchimp list
+        - label: Add item to next agenda in Mailchimp
+        - label: Hearing
+        - label: Reply to notification email with comments
+
+  - type: textarea
+    id: demolition_description
+    attributes:
+      label: Description of demolition
+      placeholder: "Add context, scope of demolition, timeline, and any known concerns."
+    validations:
+      required: true
